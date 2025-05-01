@@ -1,0 +1,3 @@
+URL DIRECCIÓN PÚBLICA=https://parqueo.ngrok.app/parkings/request?text=parqueo
+URL RENDER=https://servicioparqueo.onrender.com/parkings/request?text=parqueo
+fetch(url, { headers: { "ngrok-skip-browser-warning": "a" } })
